@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonPorte-folio.aza</title>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="icon" href="Group-32.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header-nav"> 
+        <div id="first">
+            <div class="header-nav-elt-left" id="before">
+                <div class="Nav">
+                    <h1>MonPorte-folio.aza</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#About_me" class="selected-page">A propos de moi</a></li>
+                            <li><a href="#Skills">Mes compétences</a></li>
+                            <li><a href="#Project">Mes Projets</a></li>       
+                            <li><a href="#Contacte">Contactez moi</a></li>
+                            <li><a href="https://drive.google.com/uc?export=download&id=1stiRK6ksbcVYoDcYUqyQWhV1oE_FmzoR" download="#CV_aza.pdf">Mon CV</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-nav-elt-right">
+                <div class="Nav">
+                    <ul>
+                        <li class="theme_toggle selected-theme" id="sun"><i class="bi bi-sun"></i></li>
+                        <li class="theme_toggle" id="moon"><i class="bi bi-moon" ></i></li>
+                    </ul>
+                    <div id="header-nav" >
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header-nav-item">
+            <span><a href="#About_me">A propos de moi</a></span>
+            <span><a href="#Skills">Mes compétences</a></span>
+            <span><a href="#Project">Mes projets</a></span>
+            <span><a href="#Contacte">Contactez moi</a></span>
+            <span><a href="https://drive.google.com/uc?export=download&id=1stiRK6ksbcVYoDcYUqyQWhV1oE_FmzoR" download="#CV_aza.pdf">Mon CV</a></span>
+            <div>
+                <div>
+                    <i class="bi bi-sun"></i>
+                    <div class="switch">
+                        <input type="checkbox" id="toggle">
+                        <label for="toggle"></label>
+                    </div>
+                    <i class="bi bi-moon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="center section" id="About_me">
+            <h2>A propos de moi</h2>
+            <div class="double-section">
+                <div class="left">
+                    <img src="default-image.png" alt="" id="img-about">
+                </div>
+                <div class="right">
+                    <div class="grid">
+                        <div class="card">
+                            <i class="bi bi-pen"></i>
+                            <h4>Autodidacte</h4>
+                        </div>
+                        <div class="card">
+                            <i class="bi bi-brush"></i>
+                            <h4>Créatif</h4>
+                        </div>
+                        <div class="card">
+                            <i class="bi bi-heart"></i>
+                            <h4>Pationné</h4>
+                        </div>
+                    </div>
+                    <p class="txt">
+                        Développeur web et mobile dynamique en étude d'Informatique et Génie logiciel, je suis passionné par la création de solutions numériques innovantes. Je maîtrise HTML/CSS, Javascript , Flutter/Dart et Python/Django, ce qui me permet de développer des applications performantes et intuitives. Mon expertise en algorithmie renforce ma capacité à résoudre des problèmes complexes de manière efficace. Motivé par l'apprentissage continu, je cherche à intégrer une équipe stimulante où je pourrai contribuer activement au développement de projets ambitieux.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="center section" id="Skills">
+            <h2>Mes compétences</h2>
+            <div class="center">
+                <div class="skill-grid">
+                    <div class="card-skill">
+                        <h3>Developpement web</h3>
+                        <div class="row">
+                            <div class="skill-item">
+                                <i class="bx bxl-html5"></i>
+                                <h3>HTML</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bx bxl-css3"></i>
+                                <h3>CSS</h3>
+                                <p>Intermediaire</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="skill-item">
+                                <i class="bx bxl-javascript"></i>
+                                <h3>Javascript</h3>
+                                <p>Basique</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-skill">
+                        <h3>Backend</h3>
+                        <div class="row">
+                            <div class="skill-item">
+                                <!-- <span class="iconify icon-django" data-icon="logos-django"></span> -->
+                                <i class="fa-brands fa-python"></i>
+                                <h3>Django</h3>
+                                <p>Basique</p>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-laravel"></i>
+                                <h3>Laravel</h3>
+                                <p>Basique</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="skill-item">
+                                <i class="bx bx-data"></i>
+                                <h3>SQL</h3>
+                                <p>Intermediaire</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-skill">
+                        <h3>Logiciel Informatique</h3>
+                        <div class="row">
+                            <div class="skill-item">
+                                <i class="bx bxl-figma"></i>
+                                <h3>Figma</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-github"></i>
+                                <h3>Github</h3>
+                                <p>Basique</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-skill">
+                        <h3>Developpement mobile</h3>
+                        <div class="row">
+                            <div class="skill-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h3>Flutter</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center section" id="Project">
+            <h2>Mes projets</h2>
+            <div class="row-btn">
+                <button class="selected-button">Tous</button>
+                <button id="Web">Web</button>
+                <button id="Algorithme">Algorithme</button>
+                <button id="Mobile">Mobile</button>
+            </div>
+            <div class="grid-project">
+                <div class="card-project Algorithme">
+                    <h3>Scrapping App v1</h3>
+                    <a href="https://github.com/Azania-Eraste/Scrapping" target="_blank" class="more">
+                        <p>Voir plus</p>
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="card-project Algorithme">
+                    <h3>Scrapping App v2</h3>
+                    <a href="https://github.com/Azania-Eraste/Scrapping_Project" target="_blank" class="more">
+                        <p>Voir plus</p>
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="card-project Web">
+                    <h3>porte-folio v1 </h3>
+                    <a href="https://github.com/Azania-Eraste/Porte-folio" target="_blank" class="more">
+                        <p>Voir plus</p>
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="card-project Web">
+                    <h3>Mojo e-commerce front-end</h3>
+                    <a href="https://github.com/Azania-Eraste/mojo-e-commerce-template" target="_blank" class="more">
+                        <p>Voir plus</p>
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="card-project Web">
+                    <h3>Calculatrice</h3>
+                    <a href="https://github.com/Azania-Eraste/Calculatrice-" target="_blank" class="more">
+                        <p>Voir plus</p>
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="card-project Web">
+                    <h3>Site web Sud Comoe</h3>
+                    <a href="https://github.com/Azania-Eraste/Site-web-Sud-comoe" target="_blank" class="more">
+                        <p>Voir plus</p>
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="card-project Mobile">
+                    <h3>TaskDo</h3>
+                    <a href="https://github.com/Azania-Eraste/TaskDo" target="_blank" class="more">
+                        <p>Voir plus</p>
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="center w-25 section" id="Contacte">
+            <h2>Contactez moi</h2>
+            <form id="contactForm">
+                <div class="contact_form_div">
+                    <label for="Nom" class="contact_form_tag">Nom complet</label>
+                    <input type="text" id="Nom" class="contact_form_input" placeholder="Nom">
+                </div>
+                <div class="contact_form_div">
+                    <label for="Contact" class="contact_form_tag">Contact</label>
+                    <input type="text" id="Contact" class="contact_form_input" placeholder="contact">
+                </div>
+                <div class="contact_form_div">
+                    <label for="Sujet" class="contact_form_tag">Sujet</label>
+                    <input type="text" id="Sujet" class="contact_form_input" placeholder="Sujet">
+                </div>
+                <div class="contact_form_div contact_form_area">
+                    <label for="message" class="contact_form_tag">Message</label>
+                    <textarea id="message"  rows="10" class="contact_form_input" placeholder="Message"></textarea>
+                </div>
+                <div class="center">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h3>Developpement web</h3>
+        <h3 id="name">AZA</h3>
+        <h3>Developpement Mobile</h3>
+    </footer>
+</body>
+</html>
