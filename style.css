@@ -588,13 +588,13 @@ footer > * {
         flex-direction: column;
     }
 
+    .grid,
+    .grid-project,
     .skill-grid{
         grid-template-columns: repeat(auto-fill, minmax(300px, 350px))
     }
 
-    .grid{
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1800px));
-    }
+    
 
     .card{
         border-radius: 10px;
