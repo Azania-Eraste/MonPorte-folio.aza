@@ -411,6 +411,11 @@ body.dark-mode .card-project{
 body.dark-mode .card-project:hover{
     background-color: var(--prytext-color);
     border: none;
+
+}
+
+body.dark-mode .card-project:hover .more{
+    color: #525760;
 }
 
 .more{
@@ -431,7 +436,11 @@ body.dark-mode .card-project:hover{
 }
 
 body.dark-mode .more:hover{
-    color: var(--body-color);
+    color: var(--primary-color);
+}
+
+body.dark-mode .more {
+    color: var(--prytext-color);
 }
 
 .skill-item{
@@ -618,11 +627,12 @@ footer > * {
     }
 
     .row-btn > button{
-        font-size: 60%;
+        font-size: 80%;
     }
 
     .row-btn{
         flex-wrap: wrap;
+        margin: 0;
     }
 
     .double-section > .right{
@@ -688,6 +698,10 @@ footer > * {
 }
 
 @media screen and (max-width: 492px) {
+    .center{
+        width: 90%;
+    }
+
     #Contacte{
         width: 80%;
     }
@@ -697,7 +711,7 @@ footer > * {
     }
 
     button{
-        padding: 0.2rem 2rem 0.2rem 2rem;
+        padding: 0.5rem 2rem 0.5rem 2rem;
     }
 }
 
