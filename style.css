@@ -554,6 +554,10 @@ footer{
     background-color: var(--primary-color);
 }
 
+footer > * {
+    text-align: center;
+}
+
 #name {
     font-family: 'Open Sans', sans-serif;
 }
@@ -606,9 +610,12 @@ footer{
 @media screen and (max-width: 952px) {
 
     #Contacte{
-        width: 50%;
+        width: 60%;
     }
 
+    #header-nav-item > div > div {
+        width: 40%;
+    }
 
     .row-btn > button{
         font-size: 60%;
@@ -681,6 +688,10 @@ footer{
 }
 
 @media screen and (max-width: 492px) {
+    #Contacte{
+        width: 80%;
+    }
+
     #img-about{
         height: 300px;
     }
