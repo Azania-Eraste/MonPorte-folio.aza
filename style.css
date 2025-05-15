@@ -93,6 +93,11 @@ main{
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
+
+}
+
+.Nav h1 {
+    font-size: 200%;
 }
 
 #before{
@@ -164,23 +169,23 @@ li a{
     height: 4px;  
     margin: 5px 0 5px 0;
     transition: all 0.3s ease; 
-
+    left: 90%;
 }
 
 #header-nav .line:nth-child(1) {
-    top: 13px;  
+    top: 10px;  
 }
 
 #header-nav .line:nth-child(2) {
-    top: 20px;  
+    top: 17px;  
 }
 
 #header-nav .line:nth-child(3) {
-    top: 27px;  
+    top: 24px;  
 }
 
 #header-nav .line:nth-child(4) {
-    top: 34px;  
+    top: 31px;  
 }
 
 /* Conteneur du switch */
@@ -573,6 +578,10 @@ footer > * {
 
 @media screen and (max-width: 1024px) {
 
+    ul{
+        padding: 0;
+    }
+
 
     .double-section {
         box-sizing: none;
@@ -698,6 +707,11 @@ footer > * {
 }
 
 @media screen and (max-width: 492px) {
+
+    main{
+        padding: 0;
+    }
+
     .center{
         width: 90%;
     }

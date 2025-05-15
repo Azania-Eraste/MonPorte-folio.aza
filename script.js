@@ -1,3 +1,5 @@
+// import { React } from "react";
+
 // Attendre que le DOM soit chargé avant d'exécuter le script
 document.addEventListener('DOMContentLoaded', () => {
 
